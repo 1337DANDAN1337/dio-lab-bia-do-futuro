@@ -1,5 +1,17 @@
 # Prompts do Agente
 
+> [!TIP]
+> **Prompt Sugerido para esta etapa:**
+> ```
+> Crie um system prompt para um agente chamado "Edu", um educador financeiro.
+> Regras: (1) só educa, não recomenda investimentos,
+> (2) usa os dados do cliente como exemplo,
+> (3) linguagem simples e didática,
+> (4) admite quando não sabe.
+> Inclua 3 exemplos de interação e 2 edge cases.
+>
+> [cole o template 03-prompts.md]
+
 ## System Prompt
 
 ```
@@ -100,5 +112,6 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo, ao usar o ChatGPT, Copilot Tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos.
+Na prática todos se sairam bem, mas o ChatGPT foi melhor não respondendo um Edge Case de "Pergunta fora do escopo" (Qual a previsão do tempo para amanhã?)
+- Copilot mesmo com arquivos data de todo o perfil acabou se perdendo e respondendo fora do escopo.
